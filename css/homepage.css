@@ -1,0 +1,92 @@
+body {
+  background-image: url(../images/pexels-lukas-349610.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hn .cd {
+  margin: 20px;
+  font-size: 15px;
+  color: black;
+}
+.hn .cd:hover {
+  background-color: rgb(72, 75, 75);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.hero {
+  width: 120 0px;
+  padding: 15px;
+}
+.hero .a {
+  text-align: left;
+  margin-top: 50px;
+  margin-right: 35px;
+}
+.hero .a h1 {
+  font-size: 55px;
+}
+.hero .a h4 {
+  color: crimson;
+}
+
+.im img {
+  height: 450px;
+  position: relative;
+}
+
+.menu {
+  font-size: 30px;
+  margin-top: 450px;
+  position: absolute;
+}
+.menu .m {
+  color: rgb(17, 17, 17);
+  background-color: rgb(80, 240, 128);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.m:hover {
+  background-color: rgb(255, 62, 62);
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 770px) {
+  .hn {
+    margin: auto;
+    flex-direction: row;
+  }
+  .hn .cd {
+    margin: 15px;
+  }
+  .hero {
+    width: auto;
+    display: block !important;
+    text-align: center;
+  }
+  .hero .a {
+    width: auto;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+  }
+  .hero .a h1 {
+    font-size: 40px;
+  }
+  .hero .menu {
+    margin-top: 0;
+    align-items: center;
+    position: relative;
+  }
+  .im {
+    margin: 0px;
+    width: auto;
+  }
+  .im img {
+    width: auto;
+    height: 300px;
+  }
+}/*# sourceMappingURL=homepage.css.map */
