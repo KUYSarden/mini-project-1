@@ -1,9 +1,16 @@
 body {
 
-    background-image: url(../images/pexels-lukas-349610.jpg);
+    background-image: url(../images/pexels-valeria-boltneva-1639565.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 550px;
+}
+
+header {
+    h1 {
+        color: rgb(253, 253, 253);
+    }
 }
 
 
@@ -12,9 +19,15 @@ body {
     .cd {     
         margin: 20px;
         font-size: 15px;
-        color: black;
-       
+        color: rgb(255, 255, 255);  
         
+    }
+    
+    .ho {
+        border-style: solid;
+        border-color: beige;
+        border-radius: 10px;
+
         
     }
 
@@ -27,9 +40,40 @@ body {
 }
 
 
+
+.footer {
+    background-color:rgb(75, 73, 73);
+  
+    div {
+      margin-left: 10px;
+      h3 {
+        color: antiquewhite;
+      }
+    
+      li {
+    
+        a {
+          display: block;
+          text-decoration: none;
+          color: aliceblue;
+        }
+      }
+    }
+    div {
+      h2 {
+        color: aliceblue;
+        font-size: 20px;
+      }
+    }
+  
+   }
+
 .hero {
     width: 120  0px;
     padding: 15px;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 100vh;
 
 
     .a {
@@ -39,10 +83,14 @@ body {
 
         h1 {
           font-size: 55px;
+
+          span {
+            color: crimson;
+          }
         }
 
         h4 {
-          color: crimson;
+          color: rgb(250, 250, 250);
         }
        
 
@@ -57,32 +105,21 @@ body {
     }
 }
 
-.menu {
-   
-    font-size: 30px;
-    margin-top: 450px;
-    position: absolute;
-   
-  
-
-    .m{
+ .m {
 
         color: rgb(17, 17, 17);
-        background-color: rgb(80, 240, 128);
+        background-color: rgb(231, 47, 62);
         border-radius: 10px;
         text-decoration: none;
+        font-size: 20px;
 
     }
 
+    .m:hover {
+        background-color: red;
+        color: aliceblue;
+    }
 
-  
-}
-
-.m:hover {
-    background-color: rgb(255, 62, 62);
-    color: antiquewhite;
-
-}
 
 
 
@@ -119,11 +156,7 @@ body {
             }
         }
 
-        .menu {
-            margin-top: 0;
-           align-items: center;
-           position: relative;
-        }
+       
     }
 
 

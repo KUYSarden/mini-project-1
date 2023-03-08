@@ -1,0 +1,136 @@
+@charset "UTF-8";
+body {
+  background-image: url(../images/pexels-moein-moradi-672636.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Here are just some visual styles. 🖌 */
+}
+body .navtags:hover {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 10px;
+}
+body .title-word {
+  animation: color-animation 4s linear infinite;
+}
+body .title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+body .title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+body .title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+body .title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+body .container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 50vh;
+}
+body .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 5vw;
+  text-transform: uppercase;
+  margin-top: 90px;
+}
+
+.foods {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.foods .cri {
+  color: white;
+  font-size: 30px;
+  padding: 70px;
+}
+.foods .menu {
+  padding: 50px;
+}
+.foods .img {
+  width: 350px;
+  margin: auto;
+  height: 300px;
+  position: relative;
+}
+.foods .img img {
+  overflow: hidden;
+}
+.foods .img:hover {
+  width: 500px;
+  height: 400px;
+  transition: all 0.3s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+}
+
+.footer {
+  background-color: rgb(75, 73, 73);
+}
+.footer div {
+  margin-left: 10px;
+}
+.footer div h3 {
+  color: antiquewhite;
+}
+.footer div li a {
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer div h2 {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 770px) {
+  .menu {
+    display: block !important;
+  }
+  .menu .img {
+    margin-bottom: 20px;
+    width: 350px;
+    height: auto;
+  }
+  .menu .img:hover {
+    width: auto;
+    height: auto;
+    transition: all 0.3s ease-out;
+  }
+}/*# sourceMappingURL=menu.css.map */
