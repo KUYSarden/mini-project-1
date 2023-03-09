@@ -2,8 +2,8 @@ body {
   background-image: url(./pexels-valeria-boltneva-1639565.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 550px;
+  background-position: bottom;
+  height: auto;
 }
 
 header h1 {
@@ -43,6 +43,12 @@ header h1 {
 .footer div h2 {
   color: aliceblue;
   font-size: 20px;
+}
+.footer .copyrights {
+  width: auto;
+}
+.footer .copyrights h2 {
+  font-size: 15px;
 }
 
 .hero {
@@ -86,6 +92,10 @@ header h1 {
 }
 
 @media screen and (max-width: 770px) {
+  body {
+    background-size: cover;
+    height: auto;
+  }
   .hn {
     margin: auto;
     flex-direction: row;
@@ -97,6 +107,7 @@ header h1 {
     width: auto;
     display: block !important;
     text-align: center;
+    margin-top: 100px;
   }
   .hero .a {
     width: auto;

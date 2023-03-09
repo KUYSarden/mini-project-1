@@ -1,0 +1,158 @@
+header {
+    h1 {
+        color: rgb(253, 253, 253);
+    }
+
+    .hn {
+
+        .cd {     
+            margin: 20px;
+            font-size: 15px;
+            color: rgb(255, 255, 255);  
+            
+        }
+        
+        .ho {
+            border-style: solid;
+            border-color: beige;
+            border-radius: 10px;
+    
+            
+        }
+    
+    
+        .cd:hover {
+            background-color: rgb(72, 75, 75);
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+        }
+    }
+}
+
+#about {
+    height: 600px;
+    
+   
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-image: url(./about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+.chef {
+    height: 300px;
+    width: 700px;
+   text-align: center;
+    background: rgba( 240, 223, 223, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+    h1 {
+        font-size: 60px;
+        margin-top: 20px;
+        color: red;
+
+    }
+
+    h2 {
+
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        margin-top: 20px    ;
+    }
+
+
+    .nav {
+
+      margin-top: 50px;
+        text-align: center;
+        align-items: center;
+        display: block;
+
+        a {
+            margin: 30px;
+            text-decoration: none;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+    }
+
+    a:hover {
+
+    background-color: antiquewhite;
+    color: black;
+
+    }
+   
+   
+}
+
+
+.lib {
+    width: 800px;
+    margin: auto;
+
+    div {
+        margin: 50px;
+
+
+        p {
+            width: 300px;
+            line-height: 30px;
+
+        }
+    }
+}
+
+
+.footer {
+    background-color:rgb(75, 73, 73);
+  
+    div {
+      margin-left: 10px;
+      h3 {
+        color: antiquewhite;
+      }
+    
+      li {
+    
+        a {
+          display: block;
+          text-decoration: none;
+          color: aliceblue;
+        }
+      }
+    }
+    div {
+      h2 {
+        color: aliceblue;
+        font-size: 20px;
+      }
+    }
+
+    .copyrights {
+        width: auto;
+    
+        h2 {
+          font-size: 15px;
+        }
+      }
+  
+   }
+
+
+
+
+

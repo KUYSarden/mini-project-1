@@ -58,10 +58,10 @@ body .title-word-4 {
   }
 }
 body .container {
-  display: grid;
-  place-items: center;
-  text-align: center;
-  height: 50vh;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin-top: 70px;
 }
 body .title {
   font-family: "Montserrat", sans-serif;
@@ -85,13 +85,15 @@ body .title {
   padding: 50px;
 }
 .foods .img {
-  width: 350px;
-  margin: auto;
-  height: 300px;
+  width: 400px;
+  margin: 20px;
+  height: 350px;
   position: relative;
 }
 .foods .img img {
   overflow: hidden;
+  width: auto;
+  height: auto;
 }
 .foods .img:hover {
   width: 500px;
@@ -118,19 +120,30 @@ body .title {
   color: aliceblue;
   font-size: 20px;
 }
+.footer .copyrights {
+  width: auto;
+}
+.footer .copyrights h2 {
+  font-size: 15px;
+}
 
 @media screen and (max-width: 770px) {
+  body {
+    width: auto;
+    margin: auto;
+  }
   .menu {
     display: block !important;
   }
   .menu .img {
     margin-bottom: 20px;
-    width: 350px;
-    height: auto;
-  }
-  .menu .img:hover {
     width: auto;
     height: auto;
-    transition: all 0.3s ease-out;
+  }
+  .menu .img .img:hover {
+    width: auto;
+    margin: auto;
+    padding: auto;
+    height: auto;
   }
 }/*# sourceMappingURL=menu.css.map */
