@@ -154,5 +154,24 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 
+   @media screen and (max-width: 770px) {
+
+    .lib {
+        display: block !important;
+        margin: auto;
+        width: auto;
+
+        li {
+            width: auto;
+
+            p {
+                width: auto;
+            }
+        }
+    }
+   }
+
+
+
 
 

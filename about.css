@@ -101,4 +101,18 @@ header .hn .cd:hover {
 }
 .footer .copyrights h2 {
   font-size: 15px;
+}
+
+@media screen and (max-width: 770px) {
+  .lib {
+    display: block !important;
+    margin: auto;
+    width: auto;
+  }
+  .lib li {
+    width: auto;
+  }
+  .lib li p {
+    width: auto;
+  }
 }/*# sourceMappingURL=about.css.map */
