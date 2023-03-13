@@ -1,0 +1,202 @@
+body {
+    background-image: url(./contact.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+
+
+header {
+    h1 {
+        color: rgb(253, 253, 253);
+    }
+}
+
+.hn {
+
+    .cd {     
+        margin: 20px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);  
+        
+    }
+    
+    .ho {
+        border-style: solid;
+        border-color: beige;
+        border-radius: 10px;
+
+        
+    }
+
+
+    .cd:hover {
+        background-color: rgb(72, 75, 75);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+}
+
+
+
+
+#contact-section {
+
+  .glass {
+    width: 800px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 20px;
+  }
+
+ height: 570px;
+ align-items: center;
+
+  display: flex;
+  justify-content: center;
+  
+
+  .page1 {
+    display: block                                                                                      ;
+   text-align: left;
+   width: 300px;
+   margin: 20px;
+
+   h1 {
+    font-size: 60px;
+    color: black;
+    margin-top: -50px;
+   }
+
+
+   input {
+    margin-top: 30px;
+   }
+    
+  }
+
+
+  .text {
+    width: 350px;
+    margin: 20px;
+
+
+    textarea {
+      width: 350px;
+    }
+    
+
+    a {
+      display: flex;
+      justify-content: right;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      background-color: black;
+      width: 42px;
+      margin-left: 310px;
+      border-radius: 10px;
+      padding: 2px;
+      font-size: 16px;
+      
+      
+    }
+
+    a:hover {
+      background-color: aliceblue;
+      color: black;
+    }
+    
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color:rgb(75, 73, 73);
+  
+    div {
+      margin-left: 10px;
+      h3 {
+        color: antiquewhite;
+      }
+    
+      li {
+    
+        a {
+          display: block;
+          text-decoration: none;
+          color: aliceblue;
+        }
+      }
+    }
+    div {
+      h2 {
+        color: aliceblue;
+        font-size: 20px;
+      }
+    }
+
+    .copyrights {
+        width: auto;
+        margin-top: 30px;
+    
+        h2 {
+          font-size: 15px;
+        }
+      }
+  
+   }
+
+
+   @media screen and (max-width: 770px) {
+
+
+    body {
+      height: auto;
+    }
+
+    #contact-section {
+
+      margin-top: 100px;
+      margin-bottom: 50px;
+      
+     
+      .glass {
+        display: block !important;
+        margin: auto;
+       width: auto;
+       height: auto;
+       
+
+       .page1 {
+        margin-bottom: 20px;
+       
+        h1 {
+          margin: auto;
+        }
+       }
+
+
+       
+      }
+    }
+
+
+
+   }

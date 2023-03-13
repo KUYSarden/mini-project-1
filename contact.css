@@ -1,0 +1,130 @@
+body {
+  background-image: url(./contact.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+header h1 {
+  color: rgb(253, 253, 253);
+}
+
+.hn .cd {
+  margin: 20px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.hn .ho {
+  border-style: solid;
+  border-color: beige;
+  border-radius: 10px;
+}
+.hn .cd:hover {
+  background-color: rgb(72, 75, 75);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+#contact-section {
+  height: 570px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#contact-section .glass {
+  width: 800px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 20px;
+}
+#contact-section .page1 {
+  display: block;
+  text-align: left;
+  width: 300px;
+  margin: 20px;
+}
+#contact-section .page1 h1 {
+  font-size: 60px;
+  color: black;
+  margin-top: -50px;
+}
+#contact-section .page1 input {
+  margin-top: 30px;
+}
+#contact-section .text {
+  width: 350px;
+  margin: 20px;
+}
+#contact-section .text textarea {
+  width: 350px;
+}
+#contact-section .text a {
+  display: flex;
+  justify-content: right;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 42px;
+  margin-left: 310px;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 16px;
+}
+#contact-section .text a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.footer {
+  background-color: rgb(75, 73, 73);
+}
+.footer div {
+  margin-left: 10px;
+}
+.footer div h3 {
+  color: antiquewhite;
+}
+.footer div li a {
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer div h2 {
+  color: aliceblue;
+  font-size: 20px;
+}
+.footer .copyrights {
+  width: auto;
+  margin-top: 30px;
+}
+.footer .copyrights h2 {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 770px) {
+  body {
+    height: auto;
+  }
+  #contact-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  #contact-section .glass {
+    display: block !important;
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+  #contact-section .glass .page1 {
+    margin-bottom: 20px;
+  }
+  #contact-section .glass .page1 h1 {
+    margin: auto;
+  }
+}/*# sourceMappingURL=contact.css.map */

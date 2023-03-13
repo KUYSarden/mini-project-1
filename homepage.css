@@ -46,6 +46,7 @@ header h1 {
 }
 .footer .copyrights {
   width: auto;
+  margin-top: 30px;
 }
 .footer .copyrights h2 {
   font-size: 15px;
@@ -60,8 +61,17 @@ header h1 {
 }
 .hero .a {
   text-align: left;
-  margin-top: 50px;
+  height: 320px;
   margin-right: 35px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  text-align: center;
+  width: 750px;
 }
 .hero .a h1 {
   font-size: 55px;
@@ -70,7 +80,7 @@ header h1 {
   color: crimson;
 }
 .hero .a h4 {
-  color: rgb(250, 250, 250);
+  color: rgb(78, 77, 77);
 }
 
 .im img {
@@ -107,7 +117,7 @@ header h1 {
     width: auto;
     display: block !important;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
   }
   .hero .a {
     width: auto;

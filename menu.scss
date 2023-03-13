@@ -14,6 +14,14 @@ body {
 }
 
 
+.nava {
+
+  a {
+   margin: 60px;
+  }
+}
+
+
  
 
 
@@ -77,6 +85,18 @@ body {
 }
 
 
+.glass {
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 30px;
+padding: 20px;
+}
+
+
 
 .foods {
 
@@ -88,7 +108,9 @@ body {
    .cri {
     color: white;
     font-size: 30px;
-    padding: 70px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 25px;
    }
   
 
@@ -96,7 +118,7 @@ body {
 
    .menu {
      
-      padding: 50px;
+      padding: 20px;
      
    }
    
@@ -107,8 +129,8 @@ body {
 
     .img {
       width: 400px;
-      margin: 20px;
-      height: 350px;
+      margin: 10px;
+      height: 420px;
       position:relative;
      
      
@@ -116,20 +138,24 @@ body {
          
         overflow: hidden;
         width: auto;;
-       height: auto;
+       object-fit: cover;
+       align-items: center;
+
       }
         
        
      }
 
-     .img:hover {
-      width: 500px;
-      height: 400px;
+     img:hover {
+
+      width: 420px;
+      height: 500px;
       transition: all .3s ease-out;
     box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-    
+    border-style: solid;
+    z-index: 1;
+    margin-left: -50px;
    
-     
      }
 
 
@@ -164,6 +190,7 @@ body {
 
   .copyrights {
     width: auto;
+    margin-top: 30px;
 
     h2 {
       font-size: 15px;
@@ -180,22 +207,51 @@ body {
   margin: auto;
 }
 
+
+.container {
+  height: auto;
+  width: auto;
+}
+
+.nava {
+  
+
+
+  a {
+    margin: 20px !important;
+  }
+ 
+}
+
   .menu {
     display: block !important;
     
 
     .img {
      margin-bottom: 20px;
-     width:auto;
-     height: auto;
+    width: auto;
+    height:370px;
+    margin-top: auto;
+    
 
-
-     .img:hover {
-   width: auto;
-   margin: auto;
-   padding: auto;
-   height: auto;
+     img {
+      object-fit: cover;
+      
      }
+
+     img:hover {
+      width: auto;
+      height: auto;
+      margin-left: -30px;
+     }
+
+
+     
+    }
+
+    .img:hover {
+      width: auto;
+      height:370px;
     }
 
 
@@ -203,3 +259,6 @@ body {
    
   }
  }
+
+
+ 
