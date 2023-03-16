@@ -18,7 +18,7 @@ header .hn .cd:hover {
 }
 
 #about {
-  height: 600px;
+  height: auto;
   display: block;
   align-items: center;
   text-align: center;
@@ -27,7 +27,7 @@ header .hn .cd:hover {
   background-repeat: no-repeat;
 }
 #about .chef {
-  height: 300px;
+  height: auto;
   width: 700px;
   text-align: center;
   background: rgba(240, 223, 223, 0.15);
@@ -37,6 +37,9 @@ header .hn .cd:hover {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 20px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding: 25px;
 }
 #about h1 {
   font-size: 60px;
@@ -51,8 +54,6 @@ header .hn .cd:hover {
 #about .nav {
   margin-top: 50px;
   text-align: center;
-  align-items: center;
-  display: block;
 }
 #about .nav a {
   margin: 30px;
@@ -68,14 +69,15 @@ header .hn .cd:hover {
 }
 
 .lib {
-  width: 800px;
+  width: 850px;
   margin: auto;
 }
 .lib div {
   margin: 50px;
+  width: 500px;
 }
 .lib div p {
-  width: 300px;
+  width: auto;
   line-height: 30px;
 }
 
@@ -111,10 +113,7 @@ header .hn .cd:hover {
     margin: auto;
     width: auto;
   }
-  .lib li {
-    width: auto;
-  }
-  .lib li p {
+  .lib div {
     width: auto;
   }
 }/*# sourceMappingURL=about.css.map */

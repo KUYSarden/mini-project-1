@@ -55,13 +55,12 @@ header h1 {
 .hero {
   width: 120 0px;
   padding: 15px;
-  margin-left: 50px;
   margin-top: 40px;
   height: 100vh;
 }
 .hero .a {
   text-align: left;
-  height: 320px;
+  height: auto;
   margin-right: 35px;
   background: rgba(255, 255, 255, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -81,6 +80,13 @@ header h1 {
 }
 .hero .a h4 {
   color: rgb(78, 77, 77);
+}
+.hero .a div {
+  margin-top: 40px;
+}
+.hero .a div a {
+  padding: 10px;
+  font-size: 25px;
 }
 
 .im img {

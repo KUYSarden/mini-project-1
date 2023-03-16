@@ -30,7 +30,7 @@ header {
 }
 
 #about {
-    height: 600px;
+    height: auto;
     
    
     display: block;
@@ -42,7 +42,7 @@ header {
 
 
 .chef {
-    height: 300px;
+    height: auto;
     width: 700px;
    text-align: center;
     background: rgba( 240, 223, 223, 0.15 );
@@ -52,6 +52,9 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 margin: 20px;
+margin-top: 150px;
+margin-bottom: 100px;
+padding: 25px;
 }
 
 
@@ -76,8 +79,7 @@ margin: 20px;
 
       margin-top: 50px;
         text-align: center;
-        align-items: center;
-        display: block;
+        
 
         a {
             margin: 30px;
@@ -102,15 +104,16 @@ margin: 20px;
 
 
 .lib {
-    width: 800px;
+    width: 850px;
     margin: auto;
 
     div {
         margin: 50px;
+        width: 500px;
 
 
         p {
-            width: 300px;
+            width:auto;
             line-height: 30px;
 
         }
@@ -163,13 +166,11 @@ margin: 20px;
         margin: auto;
         width: auto;
 
-        li {
-            width: auto;
+        div {
 
-            p {
-                width: auto;
-            }
+            width: auto;
         }
+
     }
    }
 
