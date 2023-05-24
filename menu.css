@@ -84,8 +84,6 @@ body .title {
 }
 
 .foods {
-  display: flex;
-  justify-content: center;
   width: auto;
 }
 .foods .cri {
@@ -94,8 +92,12 @@ body .title {
   padding: 10px;
   background-color: black;
   border-radius: 25px;
+  display: flex !important;
+  justify-content: center;
 }
 .foods .menu {
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
 .foods .img {
